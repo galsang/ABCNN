@@ -1,29 +1,11 @@
 
 import numpy as np
 import nltk
-import time
-import random
-
 import gensim
 
-
-"""
-def load_word_embeddings():
-    word_embeddings = {}
-
-    with open("wiki.ko.vec", "r", encoding="utf-8") as f:
-        for line in f:
-            word_embeddings[line.split()[0]] = np.array(line.split()[1:])
-
-    return word_embeddings
-
-start_time = time.time()
-print("loading embeddings...")
-word_embeddings = load_word_embeddings()
-print("embeddings loaded!", time.time() - start_time)
-
-unknown_embedding = np.random.uniform(-0.01,0.01,300)
-"""
+# Load Google's pre-trained Word2Vec model.
+word2vec = gensim.models.Word2Vec.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
+unknowns = np.random.uniform(-0.01,0.01,300)
 
 with open("msr_paraphrase_train.txt", "r", encoding="utf-8") as f:
     f.readline()
@@ -35,14 +17,18 @@ with open("msr_paraphrase_train.txt", "r", encoding="utf-8") as f:
             
         for word in nltk.word_tokenize(sentence1):
             cc += 1
-            if word.lower() not in word_embeddings:
-                print("S1 - OOV:", word)
+            if word not in word2vec.vocab:
+                unknowns
+            else:
+                word2vec[word]
+
+
                 c += 1
 
         for word in nltk.word_tokenize(sentence2):
             cc += 1
-            if word.lower() not in word_embeddings:
-                print("S2 - OOV:", word)
+            if (word  not in word2vec.vocab):
+                #print("S2 - OOV:", word)
                 c += 1
 
     print(c, cc, c/cc)
