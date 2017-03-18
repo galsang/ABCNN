@@ -3,16 +3,17 @@ import tensorflow as tf
 import numpy as np
 
 class BCNN:
-    def __init__(self, d0=300, di=50, s, w, lr, l2_reg):
+    def __init__(self, s, w, lr, l2_reg, d0=300, di=50):
         """
         Implmenentaion of BCNN
 
-        :param d0: dimensionality of word embedding(default: 300)
-        :param di: The number of convolution kernels (default: 50)
         :param s: sentence length
         :param w: filter width
         :param lr: learning rate
         :param l2_reg: L2 regularization coefficient
+        :param d0: dimensionality of word embedding(default: 300)
+        :param di: The number of convolution kernels (default: 50)
+
         """
 
         self.x1 = tf.placeholder(tf.float32, shape=[None, d0, s], name="x1")

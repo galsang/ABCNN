@@ -3,10 +3,21 @@ import numpy as np
 import nltk
 import gensim
 
-# Load Google's pre-trained Word2Vec model.
-word2vec = gensim.models.Word2Vec.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
-unknowns = np.random.uniform(-0.01,0.01,300)
+class Word2Vec():
+    def __init__(self):
+        # Load Google's pre-trained Word2Vec model.
+        self.model = gensim.models.Word2Vec.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
+        self.unknowns = np.random.uniform(-0.01,0.01,300)
 
+        print(self.model["computer"])
+        print(self.unknowns)
+
+    def get(self, word):
+        if word not in self.model.vocab:
+            return self.unknowns
+        else:
+            return self.model.wv[word]
+"""
 with open("msr_paraphrase_train.txt", "r", encoding="utf-8") as f:
     f.readline()
     c = 0
@@ -32,11 +43,4 @@ with open("msr_paraphrase_train.txt", "r", encoding="utf-8") as f:
                 c += 1
 
     print(c, cc, c/cc)
-
-"""
-import tensorflow as tf
-with tf.device("/cpu:0"):
-    hello = tf.constant("Hello, Tensorflow!")
-    sess = tf.Session()
-    print(sess.run(hello))
 """
