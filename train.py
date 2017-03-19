@@ -10,11 +10,17 @@ def main():
     s1 = "I am a boy"
     s2 = "you are a girl"
 
-    s1_mat =  tf.concat([word2vec.get(w) for w in s1], 1)
-    s2_mat = tf.concat([word2vec.get(w) for w in s2], 1)
+    for w in s1:
+        test = word2vec.get(w)
+        print(test)
+        print(tf.shape(test))
+        break
 
-    print(tf.shape(s1_mat))
-    print(tf.shapes(s2_mat))
+    #s1_mat = tf.concat([word2vec.get(w) for w in s1], 1)
+    #s2_mat = tf.concat([word2vec.get(w) for w in s2], 1)
+
+    #print(tf.shape(s1_mat))
+    #print(tf.shapes(s2_mat))
 
     return
 

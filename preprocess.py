@@ -6,17 +6,15 @@ import gensim
 class Word2Vec():
     def __init__(self):
         # Load Google's pre-trained Word2Vec model.
-        self.model = gensim.models.Word2Vec.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
-        self.unknowns = np.random.uniform(-0.01,0.01,300)
-
-        print(self.model["computer"])
-        print(self.unknowns)
+        self.model = gensim.models.KeyedVectors.load_word2vec_format('./GoogleNews-vectors-negative300.bin', binary=True)
+        self.unknowns = np.random.uniform(-0.01,0.01,300).astype("float32")
 
     def get(self, word):
         if word not in self.model.vocab:
             return self.unknowns
         else:
-            return self.model.wv[word]
+            return self.model.word_vec(word)
+
 """
 with open("msr_paraphrase_train.txt", "r", encoding="utf-8") as f:
     f.readline()
