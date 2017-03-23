@@ -49,7 +49,7 @@ class MSRP():
             self.data_size = len(self.data)
 
     def is_available(self):
-        if self.index < len(self.data):
+        if self.index < self.data_size:
             return True
         else:
             return False
@@ -59,7 +59,7 @@ class MSRP():
         if (self.is_available()):
             return self.data[self.index]
         else:
-            return [None, None, None, None]
+            return [None] * len(self.data[0])
 
     def next_batch(self):
         for i in range(self.batch_size):
