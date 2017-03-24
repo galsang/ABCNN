@@ -9,6 +9,7 @@ It includes all 4 models below:
 - ABCNN-3
 
 Note that implementation is now only focusing on PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus.
+Because the original corpus doesn't have a validation set, **msr_paraphrase_dev.txt** was made by extracting 400 random cases from the training data.
 
 ## Specification
 - **preprocess.py**: preprocess MSRP data and import word2vec to use.
