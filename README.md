@@ -1,7 +1,7 @@
 
 # ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs
 
-This is the implementation of **ABCNN**, which is proposed by [Wenpeng Yin et al.](https://arxiv.org/pdf/1512.05193.pdf), on **Tensorflow**.
+This is the implementation of **ABCNN**, which is proposed by [Wenpeng Yin et al.](https://arxiv.org/pdf/1512.05193.pdf), on **Tensorflow**.  
 It includes all 4 models below:
 - BCNN
 - ABCNN-1
@@ -33,7 +33,7 @@ Note that implementation is now only focusing on PE task with [MSRP(Microsoft Re
 
 ## Requirements
 
-This model is based on pre-trained Word2vec([GoogleNews-vectors-negative300.bin](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download)) by T.Mikolov et al.
+This model is based on pre-trained Word2vec([GoogleNews-vectors-negative300.bin](https://drive.google.com/uc?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download)) by T.Mikolov et al.  
 You should download this file and place it in the root folder.
 
 
