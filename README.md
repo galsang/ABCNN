@@ -11,12 +11,12 @@ It includes all 4 models below:
 Note that implementation is now only focusing on PE task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus.
 
 ## Specification
-- preprocess.py: preprocess MSRP data and import word2vec to use
-- train.py: run the model
-- ABCNN.py: model codes
-- msr_paraphrase_train.txt: MSRP(task: PE) training data
-- msr_paraphrase_test.txt: MSRP(task: PE) test data
-
+- **preprocess.py**: preprocess MSRP data and import word2vec to use.
+- **train.py**: run the model with configs.
+- **ABCNN.py**: Implementation of ABCNN models.
+- **msr_paraphrase_train.txt**: MSRP(task: PE) training data.
+- **msr_paraphrase_dev.txt**: MSRP(task: PE) validation(dev) data.
+- **msr_paraphrase_test.txt**: MSRP(task: PE) test data.
 
 ## Development Environment
 - OS: Windows 10 (64 bit)
