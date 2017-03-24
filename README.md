@@ -29,7 +29,6 @@ Note that implementation is now only focusing on PE task with [MSRP(Microsoft Re
     - numpy 1.12.0
     - gensim 1.0.1
     - NLTK 3.2.2
-    - numpy
 
 ## Requirements
 
