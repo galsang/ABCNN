@@ -1,6 +1,8 @@
 
 # ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs
 
+#### !!!Caution!!!: Implementation is not complete. I hope having it done very soon!
+
 This is the implementation of **ABCNN**, which is proposed by [Wenpeng Yin et al.](https://arxiv.org/pdf/1512.05193.pdf), on **Tensorflow**.  
 It includes all 4 models below:
 - BCNN
@@ -8,8 +10,9 @@ It includes all 4 models below:
 - ABCNN-2
 - ABCNN-3
 
-Note that implementation is now only focusing on PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus.
-Because the original corpus doesn't have a validation set, **msr_paraphrase_dev.txt** was made by extracting 400 random cases from the training data.
+### Note:
+- Implementation is now only focusing on PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus.  
+- Because the original corpus doesn't have a validation set, **msr_paraphrase_dev.txt** was made by extracting 400 random cases from the training data as the article suggests.
 
 ## Specification
 - **preprocess.py**: preprocess MSRP data and import word2vec to use.
@@ -39,3 +42,6 @@ You should download this file and place it in the root folder.
 
 ## Execution
 
+
+## MISC.
+- [Original code by the author?](https://github.com/yinwenpeng/Answer_Selection/tree/master/src)
