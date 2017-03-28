@@ -19,34 +19,51 @@ class Word2Vec():
 
 
 class MSRP():
-    def __init__(self, mode="train", batch_size=100, num_classes=2, max_length=0):
-        with open("msr_paraphrase_" + mode + ".txt", "r", encoding="utf-8") as f:
-            self.data = []
-            self.index = -1
-            self.max_length = max_length
-            self.batch_size = batch_size
-            self.num_classes = num_classes
-            self.word2vec = Word2Vec()
+    def __init__(self, mode, word2vec, max_len=0, parsing_method="normal"):
+        self.s1s, self.s2s, self.labels, self.features = [], [], [], []
+        self.index, self.max_len, self.word2vec = 0, max_len, word2vec
 
+        with open("./MSRP_Corpus/msr_paraphrase_" + mode + ".txt", "r", encoding="utf-8") as f:
             f.readline()
 
             for line in f:
-                label = line[:-1].split("\t")[0]
-                s1 = nltk.word_tokenize(line[:-1].split("\t")[3])
-                s2 = nltk.word_tokenize(line[:-1].split("\t")[4])
+                label = int(line[:-1].split("\t")[0])
+                if parsing_method == "NLTK":
+                    s1 = nltk.word_tokenize(line[:-1].split("\t")[3])
+                    s2 = nltk.word_tokenize(line[:-1].split("\t")[4])
+                else:
+                    s1 = line[:-1].split("\t")[3].strip().split()
+                    s2 = line[:-1].split("\t")[3].strip().split()
 
                 bleu_score = nltk.translate.bleu_score.sentence_bleu(s1, s2)
                 # sentence_bleu(s1, s2, smoothing_function=nltk.translate.bleu_score.SmoothingFunction.method1)
 
-                self.data.append([s1, s2, int(label), [bleu_score]])
+                self.s1s.append(s1)
+                self.s2s.append(s2)
+                self.labels.append(label)
+                self.features.append([bleu_score, len(s1), len(s2)])
+
                 if mode == "train":
-                    self.data.append([s2, s1, int(label), [bleu_score]])
+                    self.s1s.append(s2)
+                    self.s2s.append(s1)
+                    self.labels.append(label)
+                    self.features.append([bleu_score, len(s2), len(s1)])
 
-                local_max_length = max(len(s1), len(s2))
-                if local_max_length > self.max_length:
-                    self.max_length = local_max_length
+                local_max_len = max(len(s1), len(s2))
+                if local_max_len > self.max_len:
+                    self.max_len = local_max_len
 
-            self.data_size = len(self.data)
+        self.data_size = len(self.s1s)
+        self.num_features= len(self.features[0])
+
+        # shuffle data
+        """
+        r_indexes = list(range(self.data_size))
+        self.s1s = [self.s1s[i] for i in r_indexes]
+        self.s2s = [self.s2s[i] for i in r_indexes]
+        self.labels = [self.labels[i] for i in r_indexes]
+        self.features = [self.features[i] for i in r_indexes]
+        """
 
     def is_available(self):
         if self.index < self.data_size:
@@ -55,36 +72,35 @@ class MSRP():
             return False
 
     def next(self):
-        self.index += 1
         if (self.is_available()):
-            return self.data[self.index]
+            self.index += 1
+            return self.data[self.index - 1]
         else:
-            return [None] * len(self.data[0])
+            return
 
-    def next_batch(self):
-        for i in range(self.batch_size):
-            s1, s2, label, feature = self.next()
+    def next_batch(self, batch_size, num_classes):
+        batch_size = min(self.data_size - self.index, batch_size)
+        s1_mats, s2_mats = [], []
 
-            if s1 is None:
-                break
+        for i in range(batch_size):
+            s1 = self.s1s[self.index + i]
+            s2 = self.s2s[self.index + i]
 
             # [1, d0, s]
-            s1_mat = tf.expand_dims(tf.pad(tf.stack([self.word2vec.get(w) for w in s1], axis=1),
-                                           [[0, 0], [0, self.max_length - len(s1)]]), 0)
-            s2_mat = tf.expand_dims(tf.pad(tf.stack([self.word2vec.get(w) for w in s2], axis=1),
-                                           [[0, 0], [0, self.max_length - len(s2)]]), 0)
+            s1_mats.append(tf.expand_dims(tf.pad(tf.stack([self.word2vec.get(w) for w in s1], axis=1),
+                                                 [[0, 0], [0, self.max_len - len(s1)]]), 0))
+            s2_mats.append(tf.expand_dims(tf.pad(tf.stack([self.word2vec.get(w) for w in s2], axis=1),
+                                                 [[0, 0], [0, self.max_len - len(s2)]]), 0))
 
-            if i == 0:
-                batch1 = s1_mat
-                batch2 = s2_mat
-                labels = [label]
-                features = [feature]
-            else:
-                batch1 = tf.concat([s1_mat, batch1], axis=0)
-                batch2 = tf.concat([s2_mat, batch2], axis=0)
-                labels.append(label)
-                features.append(feature)
+        batch_s1s = tf.concat(s1_mats, axis=0)
+        batch_s2s = tf.concat(s2_mats, axis=0)
+        batch_labels = tf.contrib.layers.one_hot_encoding(labels=self.labels[self.index:self.index + batch_size],
+                                                          num_classes=num_classes)
+        batch_features = tf.constant(self.features[self.index:self.index + batch_size])
 
-        labels = tf.contrib.layers.one_hot_encoding(labels=labels, num_classes=self.num_classes)
-        features = tf.constant(features)
-        return batch1, batch2, labels, features
+        self.index += batch_size
+
+        return batch_s1s, batch_s2s, batch_labels, batch_features
+
+    def reset_index(self):
+        self.index = 0
