@@ -53,8 +53,8 @@ You should download this file and place it in the root folder.
     --batch_size: batch_size
     --model_type: model type
 
-> (training): python train.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"
-> (training): python test.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"
+> (training): python train.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"  
+> (test): python test.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"
 
 ## MISC.
 - [Original code by the author?](https://github.com/yinwenpeng/Answer_Selection/tree/master/src)
