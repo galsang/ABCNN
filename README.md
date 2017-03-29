@@ -16,11 +16,14 @@ It includes all 4 models below:
 
 ## Specification
 - **preprocess.py**: preprocess MSRP data and import word2vec to use.
-- **train.py**: run the model with configs.
+- **train.py**: train a model with configs.
+- **test.py**: test the trained model.
 - **ABCNN.py**: Implementation of ABCNN models.
-- **msr_paraphrase_train.txt**: MSRP training data.
-- **msr_paraphrase_dev.txt**: MSRP validation(dev) data.
-- **msr_paraphrase_test.txt**: MSRP test data.
+- MSRP_Corpus
+    - **msr_paraphrase_train.txt**: MSRP training data.
+    - **msr_paraphrase_dev.txt**: MSRP validation(dev) data.
+    - **msr_paraphrase_test.txt**: MSRP test data.
+- **models**: saved models available on Tensorflow.
 
 ## Development Environment
 - OS: Windows 10 (64 bit)
@@ -33,6 +36,7 @@ It includes all 4 models below:
     - numpy 1.12.0
     - gensim 1.0.1
     - NLTK 3.2.2
+    - scikit-learn 0.18.1
 
 ## Requirements
 
@@ -42,6 +46,15 @@ You should download this file and place it in the root folder.
 
 ## Execution
 
+    Paramters
+    --lr: learning rate
+    --ws: window_size
+    --l2_reg: l2_reg modifier
+    --batch_size: batch_size
+    --model_type: model type
+
+> (training): python train.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"
+> (training): python test.py --lr=0.01 --ws=3 --l2_reg=0.0003 --batch_size=64 --model_type="BCNN"
 
 ## MISC.
 - [Original code by the author?](https://github.com/yinwenpeng/Answer_Selection/tree/master/src)
