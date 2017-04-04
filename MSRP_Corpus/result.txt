@@ -1,0 +1,202 @@
+﻿Quality	#1 ID	#2 ID	#1 String	#2 String
+
+1	1	1	The program will grow to include ports in Dubai, Turkey and Malaysia, among others.	The program will grow to include ports in Dubai, Turkey and Malaysia, among others.
+0	1	1	The program will grow to include ports in Dubai, Turkey and Malaysia, among others.	I have no idea.
+1	1	1	But he confessed: "There's total fear to start with because you are completely at the mercy of the winds."	But he confessed: "There's total fear to start with because you are completely at the mercy of the winds."
+0	1	1	But he confessed: "There's total fear to start with because you are completely at the mercy of the winds."	I have no idea.
+1	1	1	Bush also said he plans to meet with scientists and legal experts and will not make a determination on the bill for a few more weeks.	Bush also said he plans to meet with scientists and legal experts and will not make a determination on the bill for a few more weeks.
+0	1	1	Bush also said he plans to meet with scientists and legal experts and will not make a determination on the bill for a few more weeks.	I have no idea.
+1	1	1	"PeopleSoft has consistently maintained that the proposed combination of PeopleSoft and Oracle faces substantial regulatory delays and a significant likelihood that the transaction would be prohibited."	"PeopleSoft has consistently maintained that the proposed combination of PeopleSoft and Oracle faces substantial regulatory delays and a significant likelihood that the transaction would be prohibited."
+0	1	1	"PeopleSoft has consistently maintained that the proposed combination of PeopleSoft and Oracle faces substantial regulatory delays and a significant likelihood that the transaction would be prohibited."	I have no idea.
+1	1	1	Six months ago, the IMF and Argentina struck a bare-minimum $6.8-billion debt rollover deal that expires in August.	Six months ago, the IMF and Argentina struck a bare-minimum $6.8-billion debt rollover deal that expires in August.
+0	1	1	Six months ago, the IMF and Argentina struck a bare-minimum $6.8-billion debt rollover deal that expires in August.	I have no idea.
+1	1	1	A summary of his remarks says: all the group's savings have been lost to raids and arrests, and JI is totally dependent on al-Qaeda for money.	A summary of his remarks says: all the group's savings have been lost to raids and arrests, and JI is totally dependent on al-Qaeda for money.
+0	1	1	A summary of his remarks says: all the group's savings have been lost to raids and arrests, and JI is totally dependent on al-Qaeda for money.	I have no idea.
+1	1	1	He reiterated Schroder's statement last week that Berlin would consider sending peacekeepers to Iraq only if requested by an interim Iraqi government or the United Nations under a U.N. mandate.	He reiterated Schroder's statement last week that Berlin would consider sending peacekeepers to Iraq only if requested by an interim Iraqi government or the United Nations under a U.N. mandate.
+0	1	1	He reiterated Schroder's statement last week that Berlin would consider sending peacekeepers to Iraq only if requested by an interim Iraqi government or the United Nations under a U.N. mandate.	I have no idea.
+1	1	1	The airline also said it has the option to buy 380 more airplanes, orders that would be split evenly between the two manufacturers.	The airline also said it has the option to buy 380 more airplanes, orders that would be split evenly between the two manufacturers.
+0	1	1	The airline also said it has the option to buy 380 more airplanes, orders that would be split evenly between the two manufacturers.	I have no idea.
+1	1	1	The suspected militants ambushed the convoy Saturday near the town of Spinboldak, said U.S. military spokesman Lt. Col. Douglas Lefforge.	The suspected militants ambushed the convoy Saturday near the town of Spinboldak, said U.S. military spokesman Lt. Col. Douglas Lefforge.
+0	1	1	The suspected militants ambushed the convoy Saturday near the town of Spinboldak, said U.S. military spokesman Lt. Col. Douglas Lefforge.	I have no idea.
+1	1	1	A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday.	A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday.
+0	1	1	A council of up to nine Iraqis probably will lead the countrys interim government through the coming months, the U.S. civil administrator said Monday.	I have no idea.
+1	1	1	An officer in the People's Liberation Army selected from a pool of 14, Lt-Col Yang is the son of a teacher and an official at an agricultural firm.	An officer in the People's Liberation Army selected from a pool of 14, Lt-Col Yang is the son of a teacher and an official at an agricultural firm.
+0	1	1	An officer in the People's Liberation Army selected from a pool of 14, Lt-Col Yang is the son of a teacher and an official at an agricultural firm.	I have no idea.
+1	1	1	But in the first 30 seconds after Young entered the ring, the family knew it was an uneven match, Meyers said.	But in the first 30 seconds after Young entered the ring, the family knew it was an uneven match, Meyers said.
+0	1	1	But in the first 30 seconds after Young entered the ring, the family knew it was an uneven match, Meyers said.	I have no idea.
+1	1	1	Hong Kong-based Phoenix TV quoted unnamed experts as saying launch will be between Oct. 10 and 17 and will carry two men.	Hong Kong-based Phoenix TV quoted unnamed experts as saying launch will be between Oct. 10 and 17 and will carry two men.
+0	1	1	Hong Kong-based Phoenix TV quoted unnamed experts as saying launch will be between Oct. 10 and 17 and will carry two men.	I have no idea.
+1	1	1	Sutherland is the 65-year-old computing pioneer who co-founded Evans & Sutherland, which made high-performance graphics computers.	Sutherland is the 65-year-old computing pioneer who co-founded Evans & Sutherland, which made high-performance graphics computers.
+0	1	1	Sutherland is the 65-year-old computing pioneer who co-founded Evans & Sutherland, which made high-performance graphics computers.	I have no idea.
+1	1	1	Handspring shareholders will get 0.09 shares of the parent company, Palm, Inc., for each share of Handspring common stock they currently own.	Handspring shareholders will get 0.09 shares of the parent company, Palm, Inc., for each share of Handspring common stock they currently own.
+0	1	1	Handspring shareholders will get 0.09 shares of the parent company, Palm, Inc., for each share of Handspring common stock they currently own.	I have no idea.
+1	1	1	Motorola had scheduled its earnings report to be released today after the close of trading.	Motorola had scheduled its earnings report to be released today after the close of trading.
+0	1	1	Motorola had scheduled its earnings report to be released today after the close of trading.	I have no idea.
+1	1	1	Lee said Brianna had dragged food, toys and other things into the bedroom.	Lee said Brianna had dragged food, toys and other things into the bedroom.
+0	1	1	Lee said Brianna had dragged food, toys and other things into the bedroom.	I have no idea.
+1	1	1	Both companies automate many channels, though XM has some live programming, and Sirius airs live in-studio performances and interviews.	Both companies automate many channels, though XM has some live programming, and Sirius airs live in-studio performances and interviews.
+0	1	1	Both companies automate many channels, though XM has some live programming, and Sirius airs live in-studio performances and interviews.	I have no idea.
+1	1	1	But Virgin wants to operate Concorde on routes to New York, Barbados and Dubai.	But Virgin wants to operate Concorde on routes to New York, Barbados and Dubai.
+0	1	1	But Virgin wants to operate Concorde on routes to New York, Barbados and Dubai.	I have no idea.
+1	1	1	They are due to appear in the Brisbane Magistrates Court today.	They are due to appear in the Brisbane Magistrates Court today.
+0	1	1	They are due to appear in the Brisbane Magistrates Court today.	I have no idea.
+1	1	1	"The timing of [the miniseries] is absolutely staggering to me," Nancy Reagan said in a statement to Fox News Channel last week.	"The timing of [the miniseries] is absolutely staggering to me," Nancy Reagan said in a statement to Fox News Channel last week.
+0	1	1	"The timing of [the miniseries] is absolutely staggering to me," Nancy Reagan said in a statement to Fox News Channel last week.	I have no idea.
+1	1	1	Defence lawyers sought to have those charges thrown out, claiming the Bali court had no jurisdiction over those crimes.	Defence lawyers sought to have those charges thrown out, claiming the Bali court had no jurisdiction over those crimes.
+0	1	1	Defence lawyers sought to have those charges thrown out, claiming the Bali court had no jurisdiction over those crimes.	I have no idea.
+1	1	1	Avalon means the next Windows OS will support new styles of user interfaces and elements.	Avalon means the next Windows OS will support new styles of user interfaces and elements.
+0	1	1	Avalon means the next Windows OS will support new styles of user interfaces and elements.	I have no idea.
+1	1	1	If requested by outside authorities, however, the FCC will provide data from system audit logs to support external investigations of improper Internet use.	If requested by outside authorities, however, the FCC will provide data from system audit logs to support external investigations of improper Internet use.
+0	1	1	If requested by outside authorities, however, the FCC will provide data from system audit logs to support external investigations of improper Internet use.	I have no idea.
+1	1	1	Those searches have not found stockpiles of chemical and biological weapons or significant evidence of a nuclear weapons program.	Those searches have not found stockpiles of chemical and biological weapons or significant evidence of a nuclear weapons program.
+0	1	1	Those searches have not found stockpiles of chemical and biological weapons or significant evidence of a nuclear weapons program.	I have no idea.
+1	1	1	Johnsons site is www.katyjohnson .com. Maxs is www.tuckermax.com.	Johnsons site is www.katyjohnson .com. Maxs is www.tuckermax.com.
+0	1	1	Johnsons site is www.katyjohnson .com. Maxs is www.tuckermax.com.	I have no idea.
+1	1	1	Among the proposals is one for Zimbabwe to have the opportunity to rejoin the 54-member body before the next CHOGM meeting in two years.	Among the proposals is one for Zimbabwe to have the opportunity to rejoin the 54-member body before the next CHOGM meeting in two years.
+0	1	1	Among the proposals is one for Zimbabwe to have the opportunity to rejoin the 54-member body before the next CHOGM meeting in two years.	I have no idea.
+1	1	1	Det Chief Insp Norman McKinlay said there was "evidence a body or bodies have been in this area".	Det Chief Insp Norman McKinlay said there was "evidence a body or bodies have been in this area".
+0	1	1	Det Chief Insp Norman McKinlay said there was "evidence a body or bodies have been in this area".	I have no idea.
+1	1	1	One of the Oregon species was acclimated to a temperature of 65, but survived until the aquarium temperature reached 87.	One of the Oregon species was acclimated to a temperature of 65, but survived until the aquarium temperature reached 87.
+0	1	1	One of the Oregon species was acclimated to a temperature of 65, but survived until the aquarium temperature reached 87.	I have no idea.
+1	1	1	The latest attack came just two days after three suicide bombers drove a truck loaded with explosives into a government office complex in northern Chechnya, killing 59 people.	The latest attack came just two days after three suicide bombers drove a truck loaded with explosives into a government office complex in northern Chechnya, killing 59 people.
+0	1	1	The latest attack came just two days after three suicide bombers drove a truck loaded with explosives into a government office complex in northern Chechnya, killing 59 people.	I have no idea.
+1	1	1	During the fiscal second quarter, Cisco earned $991 million, or 14 cents a share, on sales of $4.7 billion.	During the fiscal second quarter, Cisco earned $991 million, or 14 cents a share, on sales of $4.7 billion.
+0	1	1	During the fiscal second quarter, Cisco earned $991 million, or 14 cents a share, on sales of $4.7 billion.	I have no idea.
+1	1	1	The UAW earlier this week reached tentative agreements, also for four years, with Ford Motor Co., DaimlerChrysler AG's Chrysler Group and supplier Visteon Corp.	The UAW earlier this week reached tentative agreements, also for four years, with Ford Motor Co., DaimlerChrysler AG's Chrysler Group and supplier Visteon Corp.
+0	1	1	The UAW earlier this week reached tentative agreements, also for four years, with Ford Motor Co., DaimlerChrysler AG's Chrysler Group and supplier Visteon Corp.	I have no idea.
+1	1	1	Those findings, published in today's Journal of the American Medical Association, are the latest bad news about estrogen-progestin therapy.	Those findings, published in today's Journal of the American Medical Association, are the latest bad news about estrogen-progestin therapy.
+0	1	1	Those findings, published in today's Journal of the American Medical Association, are the latest bad news about estrogen-progestin therapy.	I have no idea.
+1	1	1	About 1,000 people attended the ceremony, kicking off two days of observances tied to the March on Washington.	About 1,000 people attended the ceremony, kicking off two days of observances tied to the March on Washington.
+0	1	1	About 1,000 people attended the ceremony, kicking off two days of observances tied to the March on Washington.	I have no idea.
+1	1	1	The latest quarter's profit was a penny above of the average estimate as compiled by Thomson First Call.	The latest quarter's profit was a penny above of the average estimate as compiled by Thomson First Call.
+0	1	1	The latest quarter's profit was a penny above of the average estimate as compiled by Thomson First Call.	I have no idea.
+1	1	1	A Commerce spokesman issued a brief statement late Friday, noting that the task force "evaluated regions of the world that are vital to global energy supply."	A Commerce spokesman issued a brief statement late Friday, noting that the task force "evaluated regions of the world that are vital to global energy supply."
+0	1	1	A Commerce spokesman issued a brief statement late Friday, noting that the task force "evaluated regions of the world that are vital to global energy supply."	I have no idea.
+1	1	1	A DOD team is working to determine how hackers gained access to the system and what needs to be done to fix the breach.	A DOD team is working to determine how hackers gained access to the system and what needs to be done to fix the breach.
+0	1	1	A DOD team is working to determine how hackers gained access to the system and what needs to be done to fix the breach.	I have no idea.
+1	1	1	Last year, the board raised rents by 2 percent on one-year renewals, 4 percent on two-year leases.	Last year, the board raised rents by 2 percent on one-year renewals, 4 percent on two-year leases.
+0	1	1	Last year, the board raised rents by 2 percent on one-year renewals, 4 percent on two-year leases.	I have no idea.
+1	1	1	The subjects were next given a squirt up the nose of a rhinovirus, the nasty little germ that causes colds.	The subjects were next given a squirt up the nose of a rhinovirus, the nasty little germ that causes colds.
+0	1	1	The subjects were next given a squirt up the nose of a rhinovirus, the nasty little germ that causes colds.	I have no idea.
+1	1	1	Environmental campaigners are using this weekend’s lunar eclipse to highlight the huge increase in light pollution across the UK.	Environmental campaigners are using this weekend’s lunar eclipse to highlight the huge increase in light pollution across the UK.
+0	1	1	Environmental campaigners are using this weekend’s lunar eclipse to highlight the huge increase in light pollution across the UK.	I have no idea.
+1	1	1	The Aspen Fire had charred more than 12,400 acres by today on Mount Lemmon just north of Tucson, and more than 250 homes had been destroyed.	The Aspen Fire had charred more than 12,400 acres by today on Mount Lemmon just north of Tucson, and more than 250 homes had been destroyed.
+0	1	1	The Aspen Fire had charred more than 12,400 acres by today on Mount Lemmon just north of Tucson, and more than 250 homes had been destroyed.	I have no idea.
+1	1	1	Dotson admitted to FBI agents that he shot Dennehy in the head "because Patrick had tried to shoot him," according to an arrest warrant released Tuesday.	Dotson admitted to FBI agents that he shot Dennehy in the head "because Patrick had tried to shoot him," according to an arrest warrant released Tuesday.
+0	1	1	Dotson admitted to FBI agents that he shot Dennehy in the head "because Patrick had tried to shoot him," according to an arrest warrant released Tuesday.	I have no idea.
+1	1	1	Revenue in the first quarter of the year dropped 15 percent from the same period a year earlier.	Revenue in the first quarter of the year dropped 15 percent from the same period a year earlier.
+0	1	1	Revenue in the first quarter of the year dropped 15 percent from the same period a year earlier.	I have no idea.
+1	1	1	The legal ruling follows three days of intense speculation Hewlett-Packard Co. may be bidding for the company.	The legal ruling follows three days of intense speculation Hewlett-Packard Co. may be bidding for the company.
+0	1	1	The legal ruling follows three days of intense speculation Hewlett-Packard Co. may be bidding for the company.	I have no idea.
+1	1	1	Boykin’s also referred to Islamist fighters as America’s “spiritual enemy” that, “will only be defeated if we come against them in the name of Jesus”.	Boykin’s also referred to Islamist fighters as America’s “spiritual enemy” that, “will only be defeated if we come against them in the name of Jesus”.
+0	1	1	Boykin’s also referred to Islamist fighters as America’s “spiritual enemy” that, “will only be defeated if we come against them in the name of Jesus”.	I have no idea.
+1	1	1	Wall Street is looking for a profit of 30 cents a share in the third quarter and $1.31 for the fiscal year.	Wall Street is looking for a profit of 30 cents a share in the third quarter and $1.31 for the fiscal year.
+0	1	1	Wall Street is looking for a profit of 30 cents a share in the third quarter and $1.31 for the fiscal year.	I have no idea.
+1	1	1	At the time federal investigators were looking into how CFSB allocated shares of initial public stock offerings.	At the time federal investigators were looking into how CFSB allocated shares of initial public stock offerings.
+0	1	1	At the time federal investigators were looking into how CFSB allocated shares of initial public stock offerings.	I have no idea.
+1	1	1	A navy official on the scene said divers were scanning the river bed with metal finders before rain drove them to shore.	A navy official on the scene said divers were scanning the river bed with metal finders before rain drove them to shore.
+0	1	1	A navy official on the scene said divers were scanning the river bed with metal finders before rain drove them to shore.	I have no idea.
+1	1	1	Five 17-year-olds have been charged with robbery and impersonating a police officer.	Five 17-year-olds have been charged with robbery and impersonating a police officer.
+0	1	1	Five 17-year-olds have been charged with robbery and impersonating a police officer.	I have no idea.
+1	1	1	Its attackers had to fire their rockets from hundreds of yards away, with a makeshift launcher hidden in a portable electric generator.	Its attackers had to fire their rockets from hundreds of yards away, with a makeshift launcher hidden in a portable electric generator.
+0	1	1	Its attackers had to fire their rockets from hundreds of yards away, with a makeshift launcher hidden in a portable electric generator.	I have no idea.
+1	1	1	But with the PM due to leave tomorrow afternoon for personal reasons there was a risk he might not be present when the final decision was made.	But with the PM due to leave tomorrow afternoon for personal reasons there was a risk he might not be present when the final decision was made.
+0	1	1	But with the PM due to leave tomorrow afternoon for personal reasons there was a risk he might not be present when the final decision was made.	I have no idea.
+1	1	1	Assani said Tuesday he did not know what to charge the men with because US officials refused to share information with him.	Assani said Tuesday he did not know what to charge the men with because US officials refused to share information with him.
+0	1	1	Assani said Tuesday he did not know what to charge the men with because US officials refused to share information with him.	I have no idea.
+1	1	1	Recall backers say they have collected 1,600,000 signatures, approaching twice the 897,158 needed to force an election.	Recall backers say they have collected 1,600,000 signatures, approaching twice the 897,158 needed to force an election.
+0	1	1	Recall backers say they have collected 1,600,000 signatures, approaching twice the 897,158 needed to force an election.	I have no idea.
+1	1	1	You can use interactive features on the IRS Web site (www.irs.gov) to track refunds or advance child-credit payments.	You can use interactive features on the IRS Web site (www.irs.gov) to track refunds or advance child-credit payments.
+0	1	1	You can use interactive features on the IRS Web site (www.irs.gov) to track refunds or advance child-credit payments.	I have no idea.
+1	1	1	Telemarketers who call listed numbers could face FCC fines of up to $120,000.	Telemarketers who call listed numbers could face FCC fines of up to $120,000.
+0	1	1	Telemarketers who call listed numbers could face FCC fines of up to $120,000.	I have no idea.
+1	1	1	Its second-quarter earnings per share of 22 cents was slightly better than analysts' estimates of 19 cents a share and more than double its prediction in April.	Its second-quarter earnings per share of 22 cents was slightly better than analysts' estimates of 19 cents a share and more than double its prediction in April.
+0	1	1	Its second-quarter earnings per share of 22 cents was slightly better than analysts' estimates of 19 cents a share and more than double its prediction in April.	I have no idea.
+1	1	1	The company also earned 14 cents a share a year earlier.	The company also earned 14 cents a share a year earlier.
+0	1	1	The company also earned 14 cents a share a year earlier.	I have no idea.
+1	1	1	His plan would cost more than $200 billion annually, which Gephardt would pay for by repealing Bush's tax cuts.	His plan would cost more than $200 billion annually, which Gephardt would pay for by repealing Bush's tax cuts.
+0	1	1	His plan would cost more than $200 billion annually, which Gephardt would pay for by repealing Bush's tax cuts.	I have no idea.
+1	1	1	"This deal makes sense for both companies," Brian Halla, National's chief executive, said in a statement.	"This deal makes sense for both companies," Brian Halla, National's chief executive, said in a statement.
+0	1	1	"This deal makes sense for both companies," Brian Halla, National's chief executive, said in a statement.	I have no idea.
+1	1	1	While robbery appeared to be the motive, the suspects drove off before taking anything.	While robbery appeared to be the motive, the suspects drove off before taking anything.
+0	1	1	While robbery appeared to be the motive, the suspects drove off before taking anything.	I have no idea.
+1	1	1	The Rev. Christopher J. Coyne, spokesman for the archdiocese, wouldn't comment Friday.	The Rev. Christopher J. Coyne, spokesman for the archdiocese, wouldn't comment Friday.
+0	1	1	The Rev. Christopher J. Coyne, spokesman for the archdiocese, wouldn't comment Friday.	I have no idea.
+1	1	1	"This deal makes sense for both companies," said National Chief Executive Brian Halla.	"This deal makes sense for both companies," said National Chief Executive Brian Halla.
+0	1	1	"This deal makes sense for both companies," said National Chief Executive Brian Halla.	I have no idea.
+1	1	1	Experts said the case marks one of the first times in which a parent was charged with contributing to a child's suicide.	Experts said the case marks one of the first times in which a parent was charged with contributing to a child's suicide.
+0	1	1	Experts said the case marks one of the first times in which a parent was charged with contributing to a child's suicide.	I have no idea.
+1	1	1	His 1996 Chevrolet Tahoe was found abandoned in a Virginia Beach, Va., parking lot June 25.	His 1996 Chevrolet Tahoe was found abandoned in a Virginia Beach, Va., parking lot June 25.
+0	1	1	His 1996 Chevrolet Tahoe was found abandoned in a Virginia Beach, Va., parking lot June 25.	I have no idea.
+1	1	1	Analysts surveyed by Reuters Research expected earnings of 13 cents a share on revenue of $6.7 billion, on average.	Analysts surveyed by Reuters Research expected earnings of 13 cents a share on revenue of $6.7 billion, on average.
+0	1	1	Analysts surveyed by Reuters Research expected earnings of 13 cents a share on revenue of $6.7 billion, on average.	I have no idea.
+1	1	1	Two Iraqis and two Saudis grabbed shortly after the blast gave information leading to the arrest of the others, said the official.	Two Iraqis and two Saudis grabbed shortly after the blast gave information leading to the arrest of the others, said the official.
+0	1	1	Two Iraqis and two Saudis grabbed shortly after the blast gave information leading to the arrest of the others, said the official.	I have no idea.
+1	1	1	The companies uniformly declined to give specific numbers on customer turnover, saying they will release those figures only when they report overall company performance at year-end.	The companies uniformly declined to give specific numbers on customer turnover, saying they will release those figures only when they report overall company performance at year-end.
+0	1	1	The companies uniformly declined to give specific numbers on customer turnover, saying they will release those figures only when they report overall company performance at year-end.	I have no idea.
+1	1	1	"New" farmers say they have increased the numbers of dogs they keep for "protection" but former farmers say the packs are used to hunt depleted wildlife.	"New" farmers say they have increased the numbers of dogs they keep for "protection" but former farmers say the packs are used to hunt depleted wildlife.
+0	1	1	"New" farmers say they have increased the numbers of dogs they keep for "protection" but former farmers say the packs are used to hunt depleted wildlife.	I have no idea.
+1	1	1	"APEC leaders are painfully aware that security and prosperity are inseparable," Thai Prime Minister Thaksin Shinawatra told business leaders.	"APEC leaders are painfully aware that security and prosperity are inseparable," Thai Prime Minister Thaksin Shinawatra told business leaders.
+0	1	1	"APEC leaders are painfully aware that security and prosperity are inseparable," Thai Prime Minister Thaksin Shinawatra told business leaders.	I have no idea.
+1	1	1	Wal-Mart said it would check all of its million-plus domestic workers to ensure they were legally employed.	Wal-Mart said it would check all of its million-plus domestic workers to ensure they were legally employed.
+0	1	1	Wal-Mart said it would check all of its million-plus domestic workers to ensure they were legally employed.	I have no idea.
+1	1	1	Feelings about current business conditions improved substantially from the first quarter, jumping from 40 to 55.	Feelings about current business conditions improved substantially from the first quarter, jumping from 40 to 55.
+0	1	1	Feelings about current business conditions improved substantially from the first quarter, jumping from 40 to 55.	I have no idea.
+1	1	1	The House passed a similar measure by a wide margin on Sept. 9.	The House passed a similar measure by a wide margin on Sept. 9.
+0	1	1	The House passed a similar measure by a wide margin on Sept. 9.	I have no idea.
+1	1	1	"Indeed, Iran should be put on notice that efforts to try to remake Iraq in their image will be aggressively put down," he said.	"Indeed, Iran should be put on notice that efforts to try to remake Iraq in their image will be aggressively put down," he said.
+0	1	1	"Indeed, Iran should be put on notice that efforts to try to remake Iraq in their image will be aggressively put down," he said.	I have no idea.
+1	1	1	The losses occurred overnight in Willow Canyon, one of three areas in the Santa Catalina Mountains threatened by the 2-week-old fire that already had blackened 70,000 acres.	The losses occurred overnight in Willow Canyon, one of three areas in the Santa Catalina Mountains threatened by the 2-week-old fire that already had blackened 70,000 acres.
+0	1	1	The losses occurred overnight in Willow Canyon, one of three areas in the Santa Catalina Mountains threatened by the 2-week-old fire that already had blackened 70,000 acres.	I have no idea.
+1	1	1	Many women complain that they become more forgetful around the time of menopause, and some doctors believe that hormonal changes are the reason.	Many women complain that they become more forgetful around the time of menopause, and some doctors believe that hormonal changes are the reason.
+0	1	1	Many women complain that they become more forgetful around the time of menopause, and some doctors believe that hormonal changes are the reason.	I have no idea.
+1	1	1	The format must be an open standard that has been formally ratified by an internationally recognized standards organization, and IP must be licensed under reasonable, non-discriminatory terms.	The format must be an open standard that has been formally ratified by an internationally recognized standards organization, and IP must be licensed under reasonable, non-discriminatory terms.
+0	1	1	The format must be an open standard that has been formally ratified by an internationally recognized standards organization, and IP must be licensed under reasonable, non-discriminatory terms.	I have no idea.
+1	1	1	Smith found the cigarette tax falls on the tobacco consumer, not the tribe, meaning the tribe is simply an agent for collecting a tax.	Smith found the cigarette tax falls on the tobacco consumer, not the tribe, meaning the tribe is simply an agent for collecting a tax.
+0	1	1	Smith found the cigarette tax falls on the tobacco consumer, not the tribe, meaning the tribe is simply an agent for collecting a tax.	I have no idea.
+1	1	1	Russian cosmonaut Malenchenko managed a space first earlier this month by marrying his earth-bound fiance by space phone.	Russian cosmonaut Malenchenko managed a space first earlier this month by marrying his earth-bound fiance by space phone.
+0	1	1	Russian cosmonaut Malenchenko managed a space first earlier this month by marrying his earth-bound fiance by space phone.	I have no idea.
+1	1	1	"This will be a marathon, not a sprint," said Jimmy D. Staton, a senior vice president with the utility.	"This will be a marathon, not a sprint," said Jimmy D. Staton, a senior vice president with the utility.
+0	1	1	"This will be a marathon, not a sprint," said Jimmy D. Staton, a senior vice president with the utility.	I have no idea.
+1	1	1	Instead of remains, the Ragusas will bury a vial of Michael's blood, which he had donated to a bone marrow center.	Instead of remains, the Ragusas will bury a vial of Michael's blood, which he had donated to a bone marrow center.
+0	1	1	Instead of remains, the Ragusas will bury a vial of Michael's blood, which he had donated to a bone marrow center.	I have no idea.
+1	1	1	However, the standards body warns that changes to Internet Explorer may affect a "large number" of existing Web sites.	However, the standards body warns that changes to Internet Explorer may affect a "large number" of existing Web sites.
+0	1	1	However, the standards body warns that changes to Internet Explorer may affect a "large number" of existing Web sites.	I have no idea.
+1	1	1	"That doesn't mean to say it doesn't exist," said Mr. Chandler, but simply that his team hasn't uncovered evidence indicating such a link.	"That doesn't mean to say it doesn't exist," said Mr. Chandler, but simply that his team hasn't uncovered evidence indicating such a link.
+0	1	1	"That doesn't mean to say it doesn't exist," said Mr. Chandler, but simply that his team hasn't uncovered evidence indicating such a link.	I have no idea.
+1	1	1	Cindy Cohn, legal director for the Electronic Frontier Foundation, said that portion of the DMCA gives too much leeway to copyright holders.	Cindy Cohn, legal director for the Electronic Frontier Foundation, said that portion of the DMCA gives too much leeway to copyright holders.
+0	1	1	Cindy Cohn, legal director for the Electronic Frontier Foundation, said that portion of the DMCA gives too much leeway to copyright holders.	I have no idea.
+1	1	1	The new contract extends the guarantee that his annual pay and bonus will be at least $2.4 million a year.	The new contract extends the guarantee that his annual pay and bonus will be at least $2.4 million a year.
+0	1	1	The new contract extends the guarantee that his annual pay and bonus will be at least $2.4 million a year.	I have no idea.
+1	1	1	Stocks had surged on Tuesday as economic reports pointed to a thriving housing market and an uptick in consumer confidence.	Stocks had surged on Tuesday as economic reports pointed to a thriving housing market and an uptick in consumer confidence.
+0	1	1	Stocks had surged on Tuesday as economic reports pointed to a thriving housing market and an uptick in consumer confidence.	I have no idea.
+1	1	1	Consumers who said jobs are difficult to find jumped from 29.4 to 32.6, while those claiming work was plentiful slipped from 13 to 12.6.	Consumers who said jobs are difficult to find jumped from 29.4 to 32.6, while those claiming work was plentiful slipped from 13 to 12.6.
+0	1	1	Consumers who said jobs are difficult to find jumped from 29.4 to 32.6, while those claiming work was plentiful slipped from 13 to 12.6.	I have no idea.
+1	1	1	He says that "this is a time when we priests need to be renewing our pledge to celibacy, not questioning it.	He says that "this is a time when we priests need to be renewing our pledge to celibacy, not questioning it.
+0	1	1	He says that "this is a time when we priests need to be renewing our pledge to celibacy, not questioning it.	I have no idea.
+1	1	1	Charles Howell III picked up some local knowledge a year ago that provided much-needed insight in the opening round of the Memorial Tournament in Dublin, Ohio.	Charles Howell III picked up some local knowledge a year ago that provided much-needed insight in the opening round of the Memorial Tournament in Dublin, Ohio.
+0	1	1	Charles Howell III picked up some local knowledge a year ago that provided much-needed insight in the opening round of the Memorial Tournament in Dublin, Ohio.	I have no idea.
+1	1	1	Hunt's attorneys filed a motion late Monday in Forsyth Superior Court to have Hunt's murder conviction thrown out.	Hunt's attorneys filed a motion late Monday in Forsyth Superior Court to have Hunt's murder conviction thrown out.
+0	1	1	Hunt's attorneys filed a motion late Monday in Forsyth Superior Court to have Hunt's murder conviction thrown out.	I have no idea.
+1	1	1	Under state law, DeVries must be released to the jurisdiction in which he was convicted.	Under state law, DeVries must be released to the jurisdiction in which he was convicted.
+0	1	1	Under state law, DeVries must be released to the jurisdiction in which he was convicted.	I have no idea.
+1	1	1	Large swells and dangerous surf already were being felt along sections of the coast.	Large swells and dangerous surf already were being felt along sections of the coast.
+0	1	1	Large swells and dangerous surf already were being felt along sections of the coast.	I have no idea.
+1	1	1	He served as a marine in the Second World War and afterward began submitting articles to magazines.	He served as a marine in the Second World War and afterward began submitting articles to magazines.
+0	1	1	He served as a marine in the Second World War and afterward began submitting articles to magazines.	I have no idea.
+1	1	1	Results from No. 2 U.S. soft drink maker PepsiCo Inc. PEP.N were likely to be in the spotlight.	Results from No. 2 U.S. soft drink maker PepsiCo Inc. PEP.N were likely to be in the spotlight.
+0	1	1	Results from No. 2 U.S. soft drink maker PepsiCo Inc. PEP.N were likely to be in the spotlight.	I have no idea.
+1	1	1	It consisted of eight blacks, two Guyanese and two whites.	It consisted of eight blacks, two Guyanese and two whites.
+0	1	1	It consisted of eight blacks, two Guyanese and two whites.	I have no idea.
+1	1	1	In Chatsworth, 52km north-west of Los Angeles, residents of multimillion-dollar homes there were being told to begin gathering their belongings.	In Chatsworth, 52km north-west of Los Angeles, residents of multimillion-dollar homes there were being told to begin gathering their belongings.
+0	1	1	In Chatsworth, 52km north-west of Los Angeles, residents of multimillion-dollar homes there were being told to begin gathering their belongings.	I have no idea.
+1	1	1	The company has expanded into providing other services for buyers, including payment services.	The company has expanded into providing other services for buyers, including payment services.
+0	1	1	The company has expanded into providing other services for buyers, including payment services.	I have no idea.
+1	1	1	Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean.	Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean.
+0	1	1	Its closest living relatives are a family frogs called sooglossidae that are found only in the Seychelles in the Indian Ocean.	I have no idea.
+1	1	1	"NASA's organizational culture and structure had as much to do with this accident as the (loose) foam."	"NASA's organizational culture and structure had as much to do with this accident as the (loose) foam."
+0	1	1	"NASA's organizational culture and structure had as much to do with this accident as the (loose) foam."	I have no idea.
+1	1	1	A Stage One alert is declared when ozone readings exceed 0.20 parts per million during a one-hour period.	A Stage One alert is declared when ozone readings exceed 0.20 parts per million during a one-hour period.
+0	1	1	A Stage One alert is declared when ozone readings exceed 0.20 parts per million during a one-hour period.	I have no idea.
+1	1	1	P&G officials later concluded that the better approach was to split up the contracts to avoid reliance on just one contractor.	P&G officials later concluded that the better approach was to split up the contracts to avoid reliance on just one contractor.
+0	1	1	P&G officials later concluded that the better approach was to split up the contracts to avoid reliance on just one contractor.	I have no idea.
