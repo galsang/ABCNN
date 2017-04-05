@@ -14,9 +14,9 @@ It includes all 4 models below:
 | BCNN(2 layer) |  Results | 0.6523 | 0.6661 |   5   |
 |               | Baseline | 0.6593 | 0.6738 |       |
 
-- ABCNN-1
-- ABCNN-2
-- ABCNN-3
+- ABCNN-1 (on going)
+- ABCNN-2 (on going)
+- ABCNN-3 (on going)
 
 ### Note:
 - Implementation is now only focusing on AS [WikiQA](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/) corpus.
