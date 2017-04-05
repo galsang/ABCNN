@@ -19,7 +19,7 @@ It includes all 4 models below:
 - ABCNN-3 (on going)
 
 ### Note:
-- Implementation is now only focusing on AS [WikiQA](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/) corpus.
+- Implementation is now only focusing on with AS [WikiQA](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/) corpus.
 (I originally tried to deal with PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus
 but it seems that model doesn't work without external features classifier requires.)
 - Now working on ABCNNs to make the trained model similar to one in the article.
