@@ -44,10 +44,11 @@ but it seems that model doesn't work without external features classifier requir
 - GPU support: GTX 970
 - Libraries:
     - **tensorflow** 1.0.1
-    - numpy 1.12.0
+    - numpy 1.12.1
     - gensim 1.0.1
     - NLTK 3.2.2
     - scikit-learn 0.18.1
+    - matplotlib 2.0.0
 
 ## Requirements
 
