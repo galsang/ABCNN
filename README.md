@@ -92,7 +92,7 @@ You should download this file and place it in the root folder.
     --num_layers: number of convolution layers
     --data_type: MSRP or WikiQA data
 
-> (test): python test.py --ws=3 --l2_reg=0.0003 --epoch=20 --max_len=40 --model_type=BCNN --num_layers=2 --data_type=WikiQA
+> (test): python test.py --ws=3 --l2_reg=0.0003 --epoch=20 --max_len=40 --model_type=BCNN --num_layers=2 --data_type=WikiQA --classifier=LR
 
     Paramters
     --ws: window_size
