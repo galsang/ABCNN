@@ -1,28 +1,51 @@
 
 # ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs
 
-#### !!!Caution!!!: Implementation is not complete. I hope having it done very soon!
-
 This is the implementation of **ABCNN**, which is proposed by [Wenpeng Yin et al.](https://arxiv.org/pdf/1512.05193.pdf), on **Tensorflow**.  
 It includes all 4 models below:
-- BCNN (complete)
+- BCNN
 
-    |               |          |   MAP   |   MRR   | Classifier | Epoch |
-    |:-------------:|:--------:|:-------:|:-------:|:----------:|:-----:|
-    | BCNN(1 layer) |  Results |  0.6660 |  0.6813 |     LR     |   13  |
-    |               | Baseline |  0.6629 |  0.6813 |            |       |
-    | BCNN(2 layer) |  Results | 0.6762  | 0.6871  |     LR     |   4   |
-    |               | Baseline |  0.6593 |  0.6738 |            |       |
+    |               |          |   MAP   |   MRR   |
+    |:-------------:|:--------:|:-------:|:-------:|
+    | BCNN(1 layer) |  Results |  0.6660 |  0.6813 |
+    |               | Baseline |  0.6629 |  0.6813 |
+    | BCNN(2 layer) |  Results |  0.6762 |  0.6871 |
+    |               | Baseline |  0.6593 |  0.6738 |
 
-- ABCNN-1 (on going)
-- ABCNN-2 (on going)
-- ABCNN-3 (on going)
+- ABCNN-1
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-1(1 layer) |  Results |  0.6652 |  0.6755 |
+    |                  | Baseline |  0.6810 |  0.6979 |
+    | ABCNN-1(2 layer) |  Results |  0.6702 |  0.6838 |
+    |                  | Baseline |  0.6855 |  0.7023 |
+
+- ABCNN-2
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-2(1 layer) |  Results |  0.6660 |  0.6813 |
+    |                  | Baseline |  0.6885 |  0.7023 |
+    | ABCNN-2(2 layer) |  Results |  ------ |  ------ |
+    |                  | Baseline |  0.6879 |  0.7068 |
+
+- ABCNN-3
+
+    |                  |          |   MAP   |   MRR   |
+    |:----------------:|:--------:|:-------:|:-------:|
+    | ABCNN-3(1 layer) |  Results |  0.6612 |  0.6682 |
+    |                  | Baseline |  0.6914 |  0.7127 |
+    | ABCNN-3(2 layer) |  Results |  0.6571 |  0.6722 |
+    |                  | Baseline |  0.6921 |  0.7105 |
 
 ### Note:
 - Implementation is now only focusing on AS task with [WikiQA](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/) corpus.
 (I originally tried to deal with PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus
 but it seems that model doesn't work without external features classifier requires.)
-- Now working on ABCNNs to make the trained model similar to one in the article.
+- My code has verified that BCNN works fine as the authors proposed. (watched even better results than the paper's.)
+- Unfortunately, as you can see above results, my working hasn't resulted in proving the fact that ABCNNs are better than BCNN.
+- I doubt that there are some bugs on ABCNNs(especially ABCNN-2 which has 2 conv layers) and will keep watching codes. Please be careful when using the results.
 
 ## Specification
 - **preprocess.py**: preprocess (training, test) data and import word2vec to use.
@@ -83,4 +106,4 @@ You should download this file and place it in the root folder.
 
 
 ## MISC.
-- [Original code by the author?](https://github.com/yinwenpeng/Answer_Selection/tree/master/src)
+- [Original code by the author.](https://github.com/yinwenpeng/Answer_Selection/tree/master/src)
