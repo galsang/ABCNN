@@ -43,7 +43,7 @@ It includes all 4 models below:
 - Implementation is now only focusing on AS task with [WikiQA](https://www.microsoft.com/en-us/research/publication/wikiqa-a-challenge-dataset-for-open-domain-question-answering/) corpus.
 (I originally tried to deal with PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus
 but it seems that model doesn't work without external features classifier requires.)
-- My code has verified that BCNN works fine as the authors proposed. (watched even better results than the paper's.)
+- My code has verified that **BCNN works fine as the authors proposed.** (watched even better results than the paper's.)
 - Unfortunately, as you can see above results, my working hasn't resulted in proving the fact that ABCNNs are better than BCNN.
 - I doubt that there are some bugs on ABCNNs(especially ABCNN-2 which has 2 conv layers) and will keep watching codes. Please be careful when using the results.
 
