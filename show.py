@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-with open("./experiments/WikiQA-ABCNN1-1-LR.txt", "r", encoding="utf-8") as f:
+with open("./experiments/WikiQA-ABCNN1-2-LR.txt", "r", encoding="utf-8") as f:
     f.readline()
     MAPs, MRRs = [], []
 
@@ -13,7 +13,10 @@ with open("./experiments/WikiQA-ABCNN1-1-LR.txt", "r", encoding="utf-8") as f:
         MAPs.append(MAP)
         MRRs.append(MRR)
 
+print("max:", max(MAPs), max(MRRs))
+
 plt.plot(np.arange(1, len(MAPs)+1, 1), MAPs, 'r')
 plt.plot(np.arange(1, len(MAPs)+1, 1), MRRs, 'b')
 plt.legend(["MAP", "MRR"])
 plt.show()
+
