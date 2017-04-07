@@ -1,0 +1,2 @@
+model_checkpoint_path: "WikiQA-ABCNN2-2-1"
+all_model_checkpoint_paths: "WikiQA-ABCNN2-2-1"
