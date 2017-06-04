@@ -133,7 +133,7 @@ class ABCNN():
                         aW = tf.get_variable(name="aW",
                                              shape=(s, d),
                                              initializer=tf.contrib.layers.xavier_initializer(),
-                                             regularizer=tf.contrib.lay0ers.l2_regularizer(scale=l2_reg))
+                                             regularizer=tf.contrib.layers.l2_regularizer(scale=l2_reg))
 
                         # [batch, s, s]
                         att_mat = make_attention_mat(x1, x2)
