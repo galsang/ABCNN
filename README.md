@@ -44,7 +44,7 @@ It includes all 4 models below:
 (I originally tried to deal with PI task with [MSRP(Microsoft Research Paraphrase)](https://www.microsoft.com/en-us/download/details.aspx?id=52398) corpus
 but it seems that model doesn't work without external features classifier requires.)
 - My code has verified that **BCNN works fine as the authors proposed.** (watched even better results than the paper's.)
-- Unfortunately, as you can see above results, my working hasn't resulted in proving the fact that ABCNNs are better than BCNN.
+-  In the case of ABCNNs, results are inferior to ones in the paper but somewhat competitive. Careful hyperparameter configuration and detailed re-examination may help to achieve optimized results.
 - I doubt that there are some bugs on ABCNNs(especially ABCNN-2 which has 2 conv layers) and will keep watching codes. Please be careful when using the results.
 
 ## Specification
@@ -80,7 +80,7 @@ You should download this file and place it in the root folder.
 
 
 ## Execution
-> (training): python train.py --lr=0.01 --ws=3 --l2_reg=0.0003 --epoch=20 --batch_size=64 --model_type=BCNN --num_layers=2 --data_type=WikiQA
+> (training): python train.py --lr=0.08 --ws=4 --l2_reg=0.0004 --epoch=20 --batch_size=64 --model_type=BCNN --num_layers=2 --data_type=WikiQA
 
     Paramters
     --lr: learning rate
@@ -92,7 +92,7 @@ You should download this file and place it in the root folder.
     --num_layers: number of convolution layers
     --data_type: MSRP or WikiQA data
 
-> (test): python test.py --ws=3 --l2_reg=0.0003 --epoch=20 --max_len=40 --model_type=BCNN --num_layers=2 --data_type=WikiQA
+> (test): python test.py --ws=4 --l2_reg=0.0004 --epoch=20 --max_len=40 --model_type=BCNN --num_layers=2 --data_type=WikiQA --classifier=LR
 
     Paramters
     --ws: window_size
