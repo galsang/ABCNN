@@ -46,7 +46,7 @@ class ABCNN():
             euclidean = tf.sqrt(tf.reduce_sum(tf.square(x1 - tf.matrix_transpose(x2)), axis=1))
             return 1 / (1 + euclidean)
 
-        def convolution(name_scope, x, d):
+        def convolution(name_scope, x, d, reuse):
             with tf.name_scope(name_scope + "-conv"):
                 with tf.variable_scope("conv") as scope:
                     conv = tf.contrib.layers.conv2d(
@@ -59,7 +59,7 @@ class ABCNN():
                         weights_initializer=tf.contrib.layers.xavier_initializer_conv2d(),
                         weights_regularizer=tf.contrib.layers.l2_regularizer(scale=l2_reg),
                         biases_initializer=tf.constant_initializer(1e-04),
-                        reuse=True,
+                        reuse=reuse,
                         trainable=True,
                         scope=scope
                     )
@@ -149,8 +149,8 @@ class ABCNN():
                         x1 = tf.concat([x1, x1_a], axis=3)
                         x2 = tf.concat([x2, x2_a], axis=3)
 
-                left_conv = convolution(name_scope="left", x=pad_for_wide_conv(x1), d=d)
-                right_conv = convolution(name_scope="right", x=pad_for_wide_conv(x2), d=d)
+                left_conv = convolution(name_scope="left", x=pad_for_wide_conv(x1), d=d, reuse=False)
+                right_conv = convolution(name_scope="right", x=pad_for_wide_conv(x2), d=d, reuse=True)
 
                 left_attention, right_attention = None, None
 
