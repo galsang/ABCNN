@@ -66,7 +66,7 @@ but it seems that model doesn't work without external features classifier requir
 - RAM: 16GB
 - GPU support: GTX 970
 - Libraries:
-    - **tensorflow** 1.0.1
+    - **tensorflow 1.2.1**
     - numpy 1.12.1
     - gensim 1.0.1
     - NLTK 3.2.2
