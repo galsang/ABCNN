@@ -28,7 +28,7 @@ def train(lr, w, l2_reg, epoch, batch_size, model_type, num_layers, data_type, w
     optimizer = tf.train.AdagradOptimizer(lr, name="optimizer").minimize(model.cost)
 
     # Due to GTX 970 memory issues
-    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
+    #gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
 
     # Initialize all variables
     init = tf.global_variables_initializer()
@@ -36,8 +36,9 @@ def train(lr, w, l2_reg, epoch, batch_size, model_type, num_layers, data_type, w
     # model(parameters) saver
     saver = tf.train.Saver(max_to_keep=100)
 
-    with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
-        train_summary_writer = tf.summary.FileWriter("C:/tf_logs/train", sess.graph)
+    #with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
+    with tf.Session() as sess:
+        #train_summary_writer = tf.summary.FileWriter("C:/tf_logs/train", sess.graph)
 
         sess.run(init)
 
@@ -67,7 +68,7 @@ def train(lr, w, l2_reg, epoch, batch_size, model_type, num_layers, data_type, w
 
                 if i % 100 == 0:
                     print("[batch " + str(i) + "] cost:", c)
-                train_summary_writer.add_summary(merged, i)
+                #train_summary_writer.add_summary(merged, i)
 
             save_path = saver.save(sess, build_path("./models/", data_type, model_type, num_layers), global_step=e)
             print("model saved as", save_path)

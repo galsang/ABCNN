@@ -26,12 +26,13 @@ def test(w, l2_reg, epoch, max_len, model_type, num_layers, data_type, classifie
     print("test data size:", test_data.data_size)
 
     # Due to GTX 970 memory issues
-    gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
+    #gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.7)
 
     for e in range(1, epoch + 1):
         test_data.reset_index()
 
-        with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
+        #with tf.Session(config=tf.ConfigProto(gpu_options=gpu_options)) as sess:
+        with tf.Session() as sess:
             saver = tf.train.Saver()
             saver.restore(sess, model_path + "-" + str(e))
             print(model_path + "-" + str(e), "restored.")
