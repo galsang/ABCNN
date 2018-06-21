@@ -1,6 +1,8 @@
 
 # ABCNN: Attention-Based Convolutional Neural Network for Modeling Sentence Pairs
 
+#### \[Warning\]: Some people have reported that there are some bugs that losses go to NaN in case of ABCNN-2 and 3. (I don't know the exact condition where the bugs appear.) Unfortunately, I have no plan to revise the code around the corner. Please be careful when using the code or please send me the pull requests when your revised version of the code works properly. Thanks.
+
 This is the implementation of **ABCNN**, which is proposed by [Wenpeng Yin et al.](https://arxiv.org/pdf/1512.05193.pdf), on **Tensorflow**.  
 It includes all 4 models below:
 - BCNN
